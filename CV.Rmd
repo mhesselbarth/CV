@@ -27,8 +27,6 @@ library(tibble)
 
 <!-- Pronouns: _he/him/his_ -->
 
-<!-- Born: 25.12.1990 in Ravensburg (Germany) -->
-
 <!-- Nationality: German -->
 
 <!-- I am a computational ecologist interested in ecological modelling and especially in considering the spatial explicit characteristics of most ecological processes. My research is mainly focused on how we can use spatial patterns to infer the underlying ecological processes. -->
