@@ -1,0 +1,135 @@
+---
+date: "`r format(Sys.time(), '%B %Y')`"
+name:  Maximilian H.K. Hesselbarth
+position: "Postdoctoral Fellow"
+address: "Coastal Ecology and Conservation Lab, University of Michigan"
+phone: ""
+www: mhesselbarth.rbind.io
+email: "mhk.hesselbarth@gmail.com"
+github: mhesselbarth
+orcid: 0000-0003-1125-9918
+twitter: MHKHesselbarth
+headcolor: "31b6c6"
+output: 
+  vitae::awesomecv:
+    page_total: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+```
+
+<!-- # Personal information -->
+
+<!-- Name: Maximilian Hans Klaus Hesselbarth -->
+
+<!-- Pronouns: _he/him/his_ -->
+
+<!-- Born: 25.12.1990 in Ravensburg (Germany) -->
+
+<!-- Nationality: German -->
+
+<!-- I am a computational ecologist interested in ecological modelling and especially in considering the spatial explicit characteristics of most ecological processes. My research is mainly focused on how we can use spatial patterns to infer the underlying ecological processes. -->
+
+# Education
+
+```{r}
+tibble::tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  # "Elementary school", "1997 - 2001", "", "Albstadt-Laufen, Germany",
+  # "High school", "2001 - 2007", "", "Albstadt-Ebingen, Germany",
+  # "Economy high school", "2007 - 2010", "", "Albstadt-Ebingen, Germany",
+  "Bachelor of Sciences: Forestry", "2011 - 2014", "University of Applied Sciences and Arts", "Göttingen, Germany",
+  "Master of Sciences: Ecosystem Analysis and Modelling", "2014 - 2016", "University of Göttingen", "Göttingen, Germany",
+  "Dr. rer. nat: Department of Ecosystem Modelling", "2016 - 2020", "University of Göttingen", "Göttingen, Germany",
+  "Postdoctoral Fellow: Coastal Ecology and Conservation Lab", "2020 - ongoing", "University of Michigan", "Ann Arbor, USA"
+) %>% 
+  vitae::detailed_entries(what = Degree, when = Year, with = Institution, where = Where)
+```
+
+# Internships, Research visits
+
+```{r}
+tibble::tribble(
+  ~ Type, ~ Year, ~ Institution, ~ Where,
+  "Internship: Forest managment", "2009/08/31 - 2009/09/11", "State Forestry Department Heuberg", "Messstetten, Germany",
+  "Internship: Forest management", "2010/08/02 - 2010/08/27", "State Forestry Department Heuberg", "Messstetten, Germany",
+  "Internship: Timber management", "2011/06/02 - 2011/08/01", "Wise Batten Inc.", "Estill, USA",
+  "Internship: Forestry consulting and research", "2013/11/04 - 2014/03/30", "SilvaTerra Ltd.", "Lilongwe, Malawi",
+  "Internship: Department of growth modeling", "2015/09/01 - 2015/10/01", "Northwest German Forestry Research Institute", "Göttingen, Germany",
+  "Research visit: Land degradation and restoration ecology", "2016/03/07 - 2016/08/01", "North-West University", "Potchefstroom, South Africa",
+  "Research visit: School of Life Sciences", "2016/03/07 - 2016/08/01", "University of KwaZulu-Nata", "Pietermaritzburg, South Africa",
+  "Research visit: Department of Ecology, Evolution, and Organismal Biology", "2017/10/18 - 2017/12/21", "Iowa State University", "Ames, USA"
+) %>% 
+  vitae::detailed_entries(what = Type, when = Year, with = Institution, where = Where)
+```
+
+# Conferences & Workshops
+
+```{r}
+tibble::tribble(
+  ~ Conferences, ~ Year, ~ Institution, ~ Where,
+  "Fire protection and management", "2013/09/07 - 2013/09/22", "Cyprus Forestry College", "Podromos, Cyprus",
+  "Advances in spatial analysis of multivariate ecological data", "2017/04/02 - 2017/04/07", "PR Statistics Ltd.", "Port Talbot, UK",
+  "Young Modellers in Ecology", "2017/04/29 - 2017/05/05", "Conference", "Freiburg, Germany",
+  "Deep learning with Keras and TensorFlow", "2018/01/18 - 2018/01/19", "codecentric AG", "Solingen, Germany",
+  "Spatial modelling inlabru", "2018/03/26 - 2018/03/30", "University of St. Andrews", "St. Andrews, UK",
+  "Annual Meeting of the Ecological Society of Germany, Austria and Switzerland", "2018/09/10 - 2018/09/14", "Conference", "Vienna, Austria",
+  "World Congress International Association of Landscape Ecology", "2019/07/01 - 2019/07/05", "Conference", "Milano, Italy"
+) %>% 
+  vitae::detailed_entries(what = Institution, when = Year, with = Conferences, where = Where)
+```
+
+# Publications
+
+## Articles
+
+Esquivel, K.E.^, **Hesselbarth, M.H.K.**^, Allgeier, J.E., 2022. _Mechanistic support for increased primary production around artificial reefs._ Ecological Applications e2617. <https://doi.org/10.1002/eap.2617>
+
+**Hesselbarth, M.H.K.**, 2021. _shar: An R package to analyze species-habitat associations using point pattern analysis_. Journal of Open Source Software 6, 3811. <https://doi.org/10.21105/joss.03811>
+
+**Hesselbarth, M.H.K.**, Nowosad, J., Signer, J., Graham, L.J., 2021. _Open-source tools in R for landscape ecology_. Current Landscape Ecology Reports 6, 97–111. <https://doi.org/10.1007/s40823-021-00067-y>
+
+Borthwick, R., de Flamingh, A., **Hesselbarth, M.H.K.**, Parandhaman, A., Wagner, H.H., Abdel Moniem, H.E.M., 2020. _Alternative Quantifications of Landscape Complementation to Model Gene Flow in Banded Longhorn Beetles [Typocerus v. velutinus (Olivier)]_. Frontiers in Genetics 11, 307. <https://doi.org/10.3389/fgene.2020.00307>
+
+**Hesselbarth, M.H.K.**, Sciaini, M., With, K.A., Wiegand, K., Nowosad, J., 2019. _landscapemetrics: An open‐source R tool to calculate landscape metrics_. Ecography 42, 1648–1657. <https://doi.org/10.1111/ecog.04617>
+
+**Hesselbarth, M.H.K.**, Wiegand, K., Dreber, N., Kellner, K., Esser, D., Tsvuura, Z., 2018. _Density-dependent spatial patterning of woody plants differs between a semi-arid and a mesic savanna in South Africa_. Journal of Arid Environments 157, 103–112. <https://doi.org/10.1016/j.jaridenv.2018.06.002>
+
+^ Authors contributed equally
+
+## Poster / Talks
+
+**Hesselbarth, M.H.K.**, 2021. _Spatial patterns in ecology and what we (hopefully) can learn from them_. Ecology and Evolutionary Biology Department Seminar, University of Michigan. Ann Arbor (USA). Talk.
+
+Nowosad, J., **Hesselbarth, M.H.K.**, 2020. _Introduction to landscape ecology with R_. Annual Meeting International Association of Landscape Ecology North America. Toronto (Canada). Workshop.
+
+**Hesselbarth, M.H.K.**, Sciaini, M., Nowosad, J., Hanss, S., 2019. _landscapemetrics: introducing a new R tool to characterize landscapes_. 10th World Congress International Association of Landscape Ecology. Milano (Italy). Conference poster.
+
+**Hesselbarth, M.H.K.**, Wiegand K., 2018. _A simulation study comparing methods to analyze species-habitat associations of forest trees_. 48th Annual Meeting of the Ecological Society of Germany, Austria and Switzerland. Vienna (Austria). Conference poster.
+
+## Various
+
+**Hesselbarth, M.H.K.**, 2020. _Analysing and modelling spatial patterns to infer the influence of environmental heterogeneity using point pattern analysis, individual-based simulation modelling and landscape metrics_ (Dissertation). University of Goettingen, Goettingen, Germany.
+
+# Software
+
+landscapemetrics: _Landscape metrics for categorical map patterns_. [(click for more information)](https://r-spatialecology.github.io/landscapemetrics/)
+
+shar: _Species-Habitat Associations_. [(click for more information)](https://r-sptialecology.github.io/shar/)
+
+onpoint: _Helper functions related to point pattern analysis_. [(click for more information)](https://r-spatialecology.github.io/onpoint/)
+
+# Peer reviewer for scientific journals:
+
+Journal of Tropical Ecology;
+Journal of Vegetation Science;
+Methods in Ecology and Evolution;
+PeerJ;
+Perspective in Plant Ecology, Evolution and Systematics;
+Plant and Soil;
+Scientific Reports;
+Synthesis Centre for Biodiversity Sciences;
+Web Ecology
