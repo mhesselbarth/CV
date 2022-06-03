@@ -4,7 +4,7 @@ name:  Maximilian H.K. Hesselbarth
 position: "Postdoctoral Fellow"
 address: "Coastal Ecology and Conservation Lab, University of Michigan"
 phone: ""
-www: mhesselbarth.rbind.io
+www: "www.maxhesselbarth.com"
 email: "mhk.hesselbarth@gmail.com"
 github: mhesselbarth
 orcid: 0000-0003-1125-9918
