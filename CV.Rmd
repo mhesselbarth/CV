@@ -31,6 +31,16 @@ library(tibble)
 
 <!-- I am a computational ecologist interested in ecological modelling and especially in considering the spatial explicit characteristics of most ecological processes. My research is mainly focused on how we can use spatial patterns to infer the underlying ecological processes. -->
 
+# Professional Appointments
+
+```{r}
+tibble::tribble(
+  ~ Title, ~ Year, ~ Institution, ~ Where,
+  "Postdoctoral Fellow: Coastal Ecology and Conservation Lab", "2020 - ongoing", "University of Michigan", "Ann Arbor, USA"
+) %>% 
+  vitae::detailed_entries(what = Title, when = Year, with = Institution, where = Where)
+```
+
 # Education
 
 ```{r}
@@ -41,8 +51,7 @@ tibble::tribble(
   # "Economy high school", "2007 - 2010", "", "Albstadt-Ebingen, Germany",
   "Bachelor of Sciences: Forestry", "2011 - 2014", "University of Applied Sciences and Arts", "Göttingen, Germany",
   "Master of Sciences: Ecosystem Analysis and Modelling", "2014 - 2016", "University of Göttingen", "Göttingen, Germany",
-  "Dr. rer. nat: Department of Ecosystem Modelling", "2016 - 2020", "University of Göttingen", "Göttingen, Germany",
-  "Postdoctoral Fellow: Coastal Ecology and Conservation Lab", "2020 - ongoing", "University of Michigan", "Ann Arbor, USA"
+  "Dr. rer. nat: Department of Ecosystem Modelling", "2016 - 2020", "University of Göttingen", "Göttingen, Germany"
 ) %>% 
   vitae::detailed_entries(what = Degree, when = Year, with = Institution, where = Where)
 ```
@@ -100,6 +109,8 @@ Borthwick, R., de Flamingh, A., **Hesselbarth, M.H.K.**, Parandhaman, A., Wagner
 
 ## Poster / Talks
 
+**Hesselbarth, M.H.K.**, 2022. _Introduction to R Workshop_. Ecology and Evolutionary Biology Department, University of Michigan. Ann Arbor (USA). Workshop.
+
 **Hesselbarth, M.H.K.**, 2021. _Spatial patterns in ecology and what we (hopefully) can learn from them_. Ecology and Evolutionary Biology Department Seminar, University of Michigan. Ann Arbor (USA). Talk.
 
 Nowosad, J., **Hesselbarth, M.H.K.**, 2020. _Introduction to landscape ecology with R_. Annual Meeting International Association of Landscape Ecology North America. Toronto (Canada). Workshop.
@@ -122,12 +133,16 @@ onpoint: _Helper functions related to point pattern analysis_. [(click for more 
 
 # Peer reviewer for scientific journals:
 
+Ecological Indicators;
+Global Ecology and Biogeography;
+Journal of Animal Ecology;
 Journal of Tropical Ecology;
 Journal of Vegetation Science;
 Methods in Ecology and Evolution;
 PeerJ;
 Perspective in Plant Ecology, Evolution and Systematics;
 Plant and Soil;
+Plant Ecology;
 Scientific Reports;
 Synthesis Centre for Biodiversity Sciences;
 Web Ecology
