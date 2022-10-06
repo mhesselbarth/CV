@@ -1,9 +1,10 @@
 %!TeX program = lualatex
 
-\documentclass[10pt, hidelinks]{report}
+\documentclass[hidelinks]{report}
 
 % load packages
 \usepackage[english]{babel}
+\usepackage{datetime}
 \usepackage{fancyhdr}
 \usepackage{fontawesome}
 \usepackage{fontspec}
@@ -11,6 +12,7 @@
 \usepackage{hanging}
 \usepackage{hyperref}
 \usepackage{orcidlink}
+\usepackage[fontsize=10pt]{scrextend}
 \usepackage{setspace}
 \usepackage{ulem}
 \usepackage{xcolor}
@@ -21,13 +23,14 @@
 \setmonofont{Fira Code}
 \doublespacing
 \setlength\parindent{0pt}
+\newdateformat{monthyeardate}{\monthname[\THEMONTH] \THEYEAR}
 
 % footer 
 \pagestyle{fancy}
 
 \renewcommand{\headrulewidth}{0pt}
 
-\fancyfoot[L]{{\scriptsize \textcolor{lightgrey}{August 2022}}}
+\fancyfoot[L]{{\scriptsize \textcolor{lightgrey}{\monthyeardate\today}}}
 \fancyfoot[C]{{\scriptsize \textcolor{lightgrey}{Maximilian H.K. Hesselbarth - Curriculum Vitae}}}
 \fancyfoot[R]{\scriptsize \textcolor{lightgrey}{{\thepage}}}
 
@@ -52,14 +55,16 @@
 \textcolor{red}{Coastal Ecology and Conservation Lab, University of Michigan}
 
 \small{
-	\href{mailto:mhk.hesselbarth@gmail.com}{\faEnvelope mhk.hesselbarth@gmail.com}
-	\href{https://www.maxhesselbarth.com}{\faHome www.maxhesselbarth.com}
-	\href{https://github.com/mhesselbarth}{\faGithub mhesselbarth}
+	\href{mailto:mhk.hesselbarth@gmail.com}{\faEnvelope \hspace{0.1em} mhk.hesselbarth@gmail.com} \hspace{1em}
+	\href{https://www.maxhesselbarth.com}{\faHome \hspace{0.1em} www.maxhesselbarth.com} \hspace{1em}
+	\href{https://github.com/mhesselbarth}{\faGithub \hspace{0.1em} mhesselbarth} \hspace{1em}
 	\href{https://orcid.org/0000-0003-1125-9918}{\orcidlink{} 0000-0003-1125-9918}
 }
 
 \end{center}
 
+ \vspace{1em}
+ 
 % Job appointments
 %----------------%
 
@@ -186,7 +191,7 @@ State Forestry Department Heuberg
 % Conferences
 %-----------%
 
-\section*{\textcolor{red}{Conferences} / Workshops \sout{\hfill}}
+\section*{\textcolor{red}{Conferences} / Workshops \footnotesize{(attended)} \sout{\hfill}}
 
 % IALE
 World Congress International Association of Landscape Ecology
@@ -249,11 +254,13 @@ Fire Protection and Management
 
 \section*{\textcolor{red}{Publications} \sout{\hfill}}
 
+\textcolor{grey}{\footnotesize{Copies of all publications and talks can be found on my homepage.}}
+
 \subsection*{Articles}
 
 \begin{hangparas}{7.5mm}{1}
 
-% Simpkins, C.E., Hanß, S., Spangenberg, M.C., Salecker, J., \textbf{Hesselbarth, M.H.K.}, Wiegand, K. \textit{spectre: An R package to estimate spatially-explicit community composition using sparse data}. Ecography (in press).
+Simpkins, C.E., Hanß, S., Spangenberg, M.C., Salecker, J., \textbf{Hesselbarth, M.H.K.}, Wiegand, K., 2022. \textit{spectre: An R package to estimate spatially-explicit community composition using sparse data}. Ecography. \url{https://doi.org/10.1111/ecog.06272}
 
 Esquivel, K.E.\textcolor{grey}{†}, \textbf{Hesselbarth, M.H.K.}\textcolor{grey}{†}, Allgeier, J.E., 2022. \textit{Mechanistic support for increased primary production around artificial reefs}. Ecological Applications e2617. \url{https://doi.org/10.1002/eap.2617}
 
@@ -261,9 +268,9 @@ Esquivel, K.E.\textcolor{grey}{†}, \textbf{Hesselbarth, M.H.K.}\textcolor{grey
 
 \textbf{Hesselbarth, M.H.K.}, Nowosad, J., Signer, J., Graham, L.J., 2021. \textit{Open-source tools in R for landscape ecology}. Current Landscape Ecology Reports 6, 97-111. \url{https://doi.org/10.1007/s40823-021-00067-y}
 
-Borthwick, R.\textcolor{grey}{*}, de Flamingh, A.\textcolor{grey}{*}, \textbf{Hesselbarth, M.H.K.\textcolor{grey}{*}}, Parandhaman, A.\textcolor{grey}{*}, Wagner, H.H., Abdel Moniem, H.E.M., 2020. \textit{Alternative Quantifications of Landscape Complementation to Model Gene Flow in Banded Longhorn Beetles [Typocerus v. velutinus (Olivier)]}. Frontiers in Genetics 11, 307. \url{https://doi.org/10.3389/fgene.2020.00307}
+Borthwick, R.\textcolor{grey}{*}, de Flamingh, A.\textcolor{grey}{*}, \textbf{Hesselbarth, M.H.K.}\textcolor{grey}{*}, Parandhaman, A.\textcolor{grey}{*}, Wagner, H.H., Abdel Moniem, H.E.M., 2020. \textit{Alternative Quantifications of Landscape Complementation to Model Gene Flow in Banded Longhorn Beetles [Typocerus v. velutinus (Olivier)]}. Frontiers in Genetics 11, 307. \url{https://doi.org/10.3389/fgene.2020.00307}
 
-\textbf{Hesselbarth, M.H.K.}, 2020. \textit{Analysing and modelling spatial patterns to infer the influence of environmental heterogeneity using point pattern analysis, individual-based simulation modelling and landscape metrics} (Dissertation). University of Goettingen, Goettingen, Germany.
+\textbf{Hesselbarth, M.H.K.}, 2020. \textit{Analysing and modelling spatial patterns to infer the influence of environmental heterogeneity using point pattern analysis, individual-based simulation modelling and landscape metrics} (Dissertation). University of Goettingen, Goettingen, Germany. \url{http://dx.doi.org/10.53846/goediss-7959}
 
 \textbf{Hesselbarth, M.H.K.}, Sciaini, M., With, K.A., Wiegand, K., Nowosad, J., 2019. \textit{landscapemetrics: An open-source R tool to calculate landscape metrics}. Ecography 42, 1648-1657. \url{https://doi.org/10.1111/ecog.04617}
 
@@ -273,9 +280,21 @@ Borthwick, R.\textcolor{grey}{*}, de Flamingh, A.\textcolor{grey}{*}, \textbf{He
 
 \textcolor{grey}{\footnotesize{† Authors contributed equally; * Author sequence is alphabetical}}
 
+% \subsection*{Under review}
+
+% \begin{hangparas}{7.5mm}{1}
+
+% Rubio-Camacho, E.A., \textbf{Hesselbarth, M.H.K.}, Flores-Garnica, J.-G., Acosta-Mireles, M., Under Review. \textit{Tree mortality in mature temperate forests of central Mexico: A spatial approach}. European Journal of Forest Research.
+
+% Shayka, B.F., \textbf{Hesselbarth, M.H.K.}, Schill, S.R., Currie, W.S., Under Review. \textit{The natural capital of seagrass beds in the Caribbean: evaluating their blue carbon trade and ecosystem service potential}. Biological Letters.
+
+% \end{hangparas}
+
 \subsection*{Talks/Poster}
 
-\begin{hangparas}{.25in}{1}
+\begin{hangparas}{7.5mm}{1}
+
+\textbf{Hesselbarth, M.H.K.}, and others, 2022. \textit{Advanced R Workshop}. Ecology and Evolutionary Biology Department, University of Michigan. Ann Arbor (USA). Workshop.
 
 \textbf{Hesselbarth, M.H.K.}, 2022. \textit{Introduction to R Workshop}. Ecology and Evolutionary Biology Department, University of Michigan. Ann Arbor (USA). Workshop.
 
@@ -283,7 +302,7 @@ Borthwick, R.\textcolor{grey}{*}, de Flamingh, A.\textcolor{grey}{*}, \textbf{He
 
 Nowosad, J., \textbf{Hesselbarth, M.H.K.}, 2020. \textit{Introduction to landscape ecology with R}. Annual Meeting International Association of Landscape Ecology North America. Toronto (Canada). Workshop.
 
-\textbf{Hesselbarth, M.H.K.}, Sciaini, M., Nowosad, J., Hanss, S., 2019. \textit{landscapemetrics: introducing a new R tool to characterize landscapes}. 10th World Congress International Association of Landscape Ecology. Milano (Italy). Conference poster.
+\textbf{Hesselbarth, M.H.K.}, Sciaini, M., Nowosad, J., Hanss, S., 2019. \textit{landscapemetrics: Introducing a new R tool to characterize landscapes}. 10th World Congress International Association of Landscape Ecology. Milano (Italy). Conference poster.
 
 \textbf{Hesselbarth, M.H.K.}, Wiegand K., 2018. \textit{A simulation study comparing methods to analyze species-habitat associations of forest trees}. 48th Annual Meeting of the Ecological Society of Germany, Austria and Switzerland. Vienna (Austria). Conference poster.
 
@@ -322,6 +341,7 @@ Nowosad, J., \textbf{Hesselbarth, M.H.K.}, 2020. \textit{Introduction to landsca
 Ecological Indicators;
 Global Ecology and Biogeography;
 Journal of Animal Ecology;
+Journal of Open Source Software;
 Journal of Tropical Ecology;
 Journal of Vegetation Science;
 Methods in Ecology and Evolution;
