@@ -1,4 +1,4 @@
-%!TeX program = lualatex
+% arara: lualatex: { synctex: true }
 
 \documentclass[hidelinks]{report}
 
@@ -25,6 +25,12 @@
 \setlength\parindent{0pt}
 \newdateformat{monthyeardate}{\monthname[\THEMONTH] \THEYEAR}
 
+% define colors
+\definecolor{blue}{HTML}{518FAD}
+\definecolor{red}{HTML}{E76254}
+\definecolor{grey}{HTML}{5D5D5D}
+\definecolor{lightgrey}{HTML}{A3A9AD}
+
 % footer 
 \pagestyle{fancy}
 
@@ -33,12 +39,6 @@
 \fancyfoot[L]{{\scriptsize \textcolor{lightgrey}{\monthyeardate\today}}}
 \fancyfoot[C]{{\scriptsize \textcolor{lightgrey}{Maximilian H.K. Hesselbarth - Curriculum Vitae}}}
 \fancyfoot[R]{\scriptsize \textcolor{lightgrey}{{\thepage}}}
-
-% define colors
-\definecolor{blue}{HTML}{518FAD}
-\definecolor{red}{HTML}{E76254}
-\definecolor{grey}{HTML}{5D5D5D}
-\definecolor{lightgrey}{HTML}{A3A9AD}
 
 % begin document
 \begin{document}
@@ -63,7 +63,7 @@
 
 \end{center}
 
- \vspace{1em}
+\vspace{1em}
  
 % Job appointments
 %----------------%
@@ -260,9 +260,9 @@ Fire Protection and Management
 
 \begin{hangparas}{7.5mm}{1}
 
-Simpkins, C.E., Hanß, S., Spangenberg, M.C., Salecker, J., \textbf{Hesselbarth, M.H.K.}, Wiegand, K., 2022. \textit{spectre: An R package to estimate spatially-explicit community composition using sparse data}. Ecography. \url{https://doi.org/10.1111/ecog.06272}
+Simpkins, C.E., Hanß, S., Spangenberg, M.C., Salecker, J., \textbf{Hesselbarth, M.H.K.}, Wiegand, K., 2022. \textit{spectre: An R package to estimate spatially-explicit community composition using sparse data}. Ecography, e06272 \url{https://doi.org/10.1111/ecog.06272}
 
-Esquivel, K.E.\textcolor{grey}{†}, \textbf{Hesselbarth, M.H.K.}\textcolor{grey}{†}, Allgeier, J.E., 2022. \textit{Mechanistic support for increased primary production around artificial reefs}. Ecological Applications e2617. \url{https://doi.org/10.1002/eap.2617}
+Esquivel, K.E.\textcolor{grey}{†}, \textbf{Hesselbarth, M.H.K.}\textcolor{grey}{†}, Allgeier, J.E., 2022. \textit{Mechanistic support for increased primary production around artificial reefs}. Ecological Applications 32, e2617. \url{https://doi.org/10.1002/eap.2617}
 
 \textbf{Hesselbarth, M.H.K.}, 2021. \textit{shar: An R package to analyze species-habitat associations using point pattern analysis}. Journal of Open Source Software 6, 3811. \url{https://doi.org/10.21105/joss.03811}
 
@@ -290,11 +290,13 @@ Borthwick, R.\textcolor{grey}{*}, de Flamingh, A.\textcolor{grey}{*}, \textbf{He
 
 % \end{hangparas}
 
-\subsection*{Talks/Poster}
+\subsection*{Talks/Workshops/Poster}
 
 \begin{hangparas}{7.5mm}{1}
 
 \textbf{Hesselbarth, M.H.K.}, and others, 2022. \textit{Advanced R Workshop}. Ecology and Evolutionary Biology Department, University of Michigan. Ann Arbor (USA). Workshop.
+
+\textbf{Hesselbarth, M.H.K.}, 2022. \textit{Artificial reefs to promote primary production in tropical seagrass ecosystems: A simulation study using individual-based modelling}. Ecology and Evolutionary Biology Department Seminar, University of Michigan. Ann Arbor (USA). Talk.
 
 \textbf{Hesselbarth, M.H.K.}, 2022. \textit{Introduction to R Workshop}. Ecology and Evolutionary Biology Department, University of Michigan. Ann Arbor (USA). Workshop.
 
@@ -333,6 +335,8 @@ Nowosad, J., \textbf{Hesselbarth, M.H.K.}, 2020. \textit{Introduction to landsca
 \hfill
 \textcolor{blue}{\href{https://r-spatialecology.github.io/onpoint/}{Link to homepage}}
 
+% \newpage
+
 % Peer reviewer 
 %--------%
 
@@ -353,6 +357,8 @@ Scientific Reports;
 Synthesis Centre for Biodiversity Sciences;
 Web Ecology
 
+\newpage
+
 % Skills
 %--------%
 
@@ -360,13 +366,11 @@ Web Ecology
 
 Languages: German (native), English (fluent)
 
-\vspace{7.5mm}
-
 \begin{center}
 	\begin{tabular}{l l l l}
 		
 		R: \textcolor{blue}{\faCircle \faCircle \faCircle \faCircle \faCircle} & 
-		C++: \textcolor{blue}{\faCircle \faCircle \faCircleO \faCircleO \faCircleO} & 
+		C++: \textcolor{blue}{\faCircle \faCircle \faCircle \faCircleO \faCircleO} & 
 		NetLogo: \textcolor{blue}{\faCircle \faCircle \faCircleO \faCircleO \faCircleO} &
 		html, CSS: \textcolor{blue}{\faCircle \faCircleO \faCircleO \faCircleO \faCircleO} \\
 	
