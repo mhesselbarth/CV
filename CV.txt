@@ -54,7 +54,7 @@
 
 \huge Maximilian H.K. Hesselbarth \small{\textit{(he/him)}}
 
-\textcolor{blue}{\small{\textbf{Research Scholar}}}
+\textcolor{red}{\small{\textbf{Research Scholar}}}
 
 \textcolor{blue}{\small{Biodiversity, Ecology, and Conservation Group}}
 
