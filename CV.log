@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.9.20)  9 OCT 2024 08:19
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.10.11)  14 OCT 2024 14:22
  restricted system commands enabled.
 **CV.tex
 (./CV.tex
@@ -851,40 +851,40 @@ LaTeX Font Info:    Trying to load font information for U+mvs on input line 282
 .
 
 (c:/texlive/2024/texmf-dist/tex/latex/marvosym/umvs.fd)
-LaTeX Font Info:    Calculating math sizes for size <7.50009> on input line 288
+LaTeX Font Info:    Calculating math sizes for size <7.50009> on input line 292
 .
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.50009> not available
-(Font)              size <8> substituted on input line 288.
+(Font)              size <8> substituted on input line 292.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.75005> not available
-(Font)              size <5> substituted on input line 288.
+(Font)              size <5> substituted on input line 292.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.50009> not available
-(Font)              size <8> substituted on input line 288.
+(Font)              size <8> substituted on input line 292.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.75005> not available
-(Font)              size <5> substituted on input line 288.
+(Font)              size <5> substituted on input line 292.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.50009> on input line 288.
+(Font)              <7.50009> on input line 292.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.25003> on input line 288.
+(Font)              <5.25003> on input line 292.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <3.75005> on input line 288.
+(Font)              <3.75005> on input line 292.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.50009> not available
-(Font)              size <8> substituted on input line 288.
+(Font)              size <8> substituted on input line 292.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.75005> not available
-(Font)              size <5> substituted on input line 288.
+(Font)              size <5> substituted on input line 292.
 
-[2] [3] (./CV.aux)
+[2] [3] [4] (./CV.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -899,15 +899,15 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 17450 strings out of 476447
+ 17451 strings out of 476447
  125027,1977958 words of node,token memory allocated
  494 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 9 attribute, 62 glue_spec,
  5 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 2:962,3:535,4:321,5:1578,6:126,7:9547,8:46,9:421,10:12,11:834
+   avail lists: 2:962,3:462,4:321,5:1664,6:126,7:10193,8:46,9:421,10:12,11:879
  39195 multiletter control sequences out of 65536+600000
  75 fonts using 12889575 bytes
- 108i,12n,102p,1004b,382s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,12n,102p,1004b,419s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/hesselbarth/AppData/Local/Microsoft/Windows/Fonts/UbuntuMono-Regular.t
 tf><c:/texlive/2024/texmf-dist/fonts/truetype/public/academicons/academicons.ttf
 ><c:/texlive/2024/texmf-dist/fonts/opentype/public/fontawesome/FontAwesome.otf><
@@ -915,10 +915,10 @@ c:/texlive/2024/texmf-dist/fonts/opentype/public/montserrat/Montserrat-Bold.otf>
 <c:/texlive/2024/texmf-dist/fonts/opentype/public/montserrat/Montserrat-Italic.o
 tf><c:/texlive/2024/texmf-dist/fonts/opentype/public/montserrat/Montserrat-Regul
 ar.otf><c:/texlive/2024/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV.pdf (3 pages, 56445 bytes).
+Output written on CV.pdf (4 pages, 57058 bytes).
 
-PDF statistics: 102 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 131072)
+PDF statistics: 105 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
